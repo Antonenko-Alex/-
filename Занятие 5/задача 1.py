@@ -1,5 +1,7 @@
-n = int(input())
-i = 1
-while i ** 2 <= n:
-    print(i ** 2)
-    i += 1
+def count(n):
+    n = int(input())
+    i = 1
+    while i ** 2 <= n:
+        print(i ** 2)
+        i += 1
+count(n)
