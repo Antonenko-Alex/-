@@ -1,5 +1,7 @@
-N = int(input())
-sum = 0
-for i in range(N, 0, -1):
-    sum += int(input())
-print(sum)
+def count(a,b):
+    N = int(input())
+    sum = 0
+    for i in range(N, 0, -1):
+            sum += int(input())
+            print(sum)
+count(a,b)
